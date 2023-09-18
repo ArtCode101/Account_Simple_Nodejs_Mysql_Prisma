@@ -6,3 +6,16 @@ db_stop:
 
 db_remove:
 	docker rm mysql
+
+app_init:
+	npm init -y
+
+app_install_prisma:
+	npm install prisma --save-dev
+
+app_init_prisma_cli:
+	npx prisma
+
+app_init_prisma:
+	npx prisma init
+

@@ -1,0 +1,23 @@
+{
+  "name": "account_simple_nodejs_mysql_prisma",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArtCode101/Account_Simple_Nodejs_Mysql_Prisma.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArtCode101/Account_Simple_Nodejs_Mysql_Prisma/issues"
+  },
+  "homepage": "https://github.com/ArtCode101/Account_Simple_Nodejs_Mysql_Prisma#readme",
+  "devDependencies": {
+    "prisma": "^5.3.1"
+  }
+}
