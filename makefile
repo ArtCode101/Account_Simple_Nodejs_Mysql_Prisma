@@ -24,3 +24,18 @@ app_prisma_migration:
 
 app_install_prisma_cli:
 	npm install @prisma/client
+
+app_create_account:
+	node index_create_account.js
+
+app_get_account:
+	node index_get_account.js
+
+app_get_accounts:
+	node index_get_accounts.js
+
+app_update_account:
+	node index_update_account.js
+
+app_delete_account:
+	node index_delete_account.js
