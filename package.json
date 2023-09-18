@@ -19,5 +19,8 @@
   "homepage": "https://github.com/ArtCode101/Account_Simple_Nodejs_Mysql_Prisma#readme",
   "devDependencies": {
     "prisma": "^5.3.1"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.3.1"
   }
 }
