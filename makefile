@@ -19,3 +19,8 @@ app_init_prisma_cli:
 app_init_prisma:
 	npx prisma init
 
+app_prisma_migration:
+	npx prisma migrate dev --name init
+
+app_install_prisma_cli:
+	npm install @prisma/client
